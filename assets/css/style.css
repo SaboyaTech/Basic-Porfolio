@@ -1,0 +1,116 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+}
+
+.container {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+a {
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+}
+
+/*This is the Main Header*/
+header {
+    background-color: white;
+}
+
+/*It helps clear and reset*/
+/*header::after {
+    content: '';
+    display: table;
+    clear: both;
+}*/
+
+#logo {
+    position: relative;
+    float: left;
+    /*display: inline-block;*/
+}
+
+#logo h1 {
+    margin: 0;
+    background-color: #5ba;
+    color: white;
+    padding: 22px 35px;
+}
+
+#nav-menu {
+    float: right;    
+}
+
+#nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav-menu ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 29px;
+}
+
+/*This is the body of the page*/
+#outer-box {
+    background: url('../images/concrete-texture.png') repeat;
+    height: 90%; /*why does it overflow when it is set to 100%*/
+    /*is it because of the header? */
+}
+/*This is the main content within the floating box*/
+#main-box{
+    background-color: white;
+    margin: 50px 0;
+    padding: 20px; 
+}
+
+#page-title {
+    border-bottom: 5px solid grey;
+}
+
+#page-title h2 {
+    color: #5ba;
+}
+
+#main-content {
+    overflow: auto;
+}
+
+#profile-picture {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    padding: 20px 20px 20px 0;
+}
+
+#main-content p {
+    line-height: 32px;
+}
+
+/*This is the footer*/
+#footer {
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    background-color: grey;
+    bottom: 0;
+}
+
+footer #copyright {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

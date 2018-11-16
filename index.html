@@ -3,31 +3,56 @@
 <head>
   <meta charset="utf-8" />
   <title>Basic Porfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
-  <header id="Main-Header">
-    <h1 id="Logo">Jose L Saboya Rosales</h1>
-    <nav id="Nav-Menu">
-      <a href="index.html" id="Nav-Link">About</a>
-      <a href="portfolio.html" id="Nav-Link">Porfolio</a>
-      <a href="contact.html" id="Nav-Link">Contact</a>
-    </nav>
-  </header>
-  <div>
-    <section>
-      <h2>About Me</h2>
-    </section>
-    <section>
-      <img id="Profile-Picture"" src="assets/images/IMG_1694.jpg" alt="Porfolio Picture" />
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
-      <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-    </section>
-  </div>
-  <footer>
-    <p>Copyright&#169; Jose L Saboya 2018.</p>
-  </footer>
+
+    <header>
+        <div class="container">
+
+            <div id="logo">
+                <h1>Jose L Saboya Rosales</h1>
+            </div>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li>|</li>
+                    <li><a href="porfolio.html">Portfolio</a></li>
+                    <li>|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <div id="outer-box">
+        
+        <div class="container">
+
+            <div id="main-box">
+                <section id="page-title">
+                    <h2>About Me</h2>
+                </section>
+    
+                <section id="main-content">
+                    <img id="profile-picture" src="assets/images/bio-picture.jpg" alt="Porfolio Picture" />
+
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
+                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </section>
+            </div>
+            
+        </div>        
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <p id="copyright">Copyright&#169; Jose L Saboya 2018.</p>
+        </div>
+    </footer>
 </body>
 </html>
