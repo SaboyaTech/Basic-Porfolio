@@ -6,11 +6,7 @@ html, body {
     width: 100%;
 }
 
-body {
-
-}
-
-.container {
+.container { /* helps maintain everything in the middle */
     display: block;
     width: 960px;
     margin: 0 auto;
@@ -28,17 +24,9 @@ header {
     background-color: white;
 }
 
-/*It helps clear and reset*/
-/*header::after {
-    content: '';
-    display: table;
-    clear: both;
-}*/
-
 #logo {
     position: relative;
     float: left;
-    /*display: inline-block;*/
 }
 
 #logo h1 {

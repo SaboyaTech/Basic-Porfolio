@@ -1,0 +1,23 @@
+
+form {
+	padding: 20px 0;
+	font-size: 22px;
+}
+
+input {
+	padding: 2px;
+	border: 2px solid lightgrey;
+	width: 99%;
+	box-sizing: auto;
+	height: 35px;
+	margin:10px 0 25px 0;
+}
+
+textarea {
+	padding: 2px;
+	border: 2px solid lightgrey;
+	width: 99%;
+	box-sizing: auto;
+	height: 100px;
+	margin:10px 0 25px 0;
+}
