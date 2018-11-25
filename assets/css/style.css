@@ -1,4 +1,5 @@
 
+
 html, body {
     margin: 0;
     width: 100%;
@@ -12,21 +13,8 @@ body {
 }
 
 .page-content {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-    /*margin-bottom: -120px;*/
+    min-height: 100vh;
 }
-
-/*.page-content::after {
-    content: "";
-    display: block;
-}*/
-
-/*footer, .page-content::after {
-    height: 120px;
-}*/
 
 .container { /* helps maintain everything in the middle */
     display: block;
@@ -42,16 +30,14 @@ a {
 }
 
 /*This is the Main Header*/
-header {
+.main-header {
     background-color: white;
+    padding: 1px;
+    width: 100%;
 }
 
 #logo {
-    position: relative;
     float: left;
-}
-
-#logo h1 {
     margin: 0;
     background-color: #5ba;
     color: white;
@@ -74,47 +60,45 @@ header {
     padding-top: 29px;
 }
 
-/*This is the main content within the floating box*/
+/*This is the main body with the floating box*/
+.wrapper {
+    min-height: calc(100vh - 163.0667px);
+}
+
 #main-box{
     background-color: white;
-    margin: 50px 0;
-    padding: 20px;
+    margin: 3em 0;
+    padding: 2em;
 }
 
 #page-title {
+    color: #5ba;
     border-bottom: 5px solid grey;
 }
 
-#page-title h2 {
-    color: #5ba;
-}
-
 #main-content {
-    /*overflow: auto;*/
+     padding: 20px 0;
 }
 
 #profile-picture {
     float: left;
-    width: 30%;
-    display: inline-block;
-    padding: 20px 20px 20px 0;
-}
-
-#main-content p {
-    line-height: 32px;
+    width: 25%;
+    padding-right: 2em;
 }
 
 /*This is the footer*/
-#footer {
-    width: 100%;
-    position: absolute;
-    height: 100px;
+#main-footer {
+    
+    padding: 2em 0;
     background-color: grey;
-    bottom: 0;
+    text-align: center;
+    color: white;   
+    font-weight: bold;
+
 }
 
-footer #copyright {
-    font-weight: bold;
-    color: white;
-    text-align: center;
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
 }
